@@ -7,10 +7,10 @@
 			com.mysql.jdbc.Driver
 		</property>
 		<property name="hibernate.connection.url">
-			jdbc:mysql://localhost:3306/test1
+			jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/romanjacob
 		</property>
-		<property name="hibernate.connection.username">123</property>
-		<property name="hibernate.connection.password">123</property>
+		<property name="hibernate.connection.username">admindVsy1wk</property>
+		<property name="hibernate.connection.password">Lb9tXp8-HQDB</property>
 		<property name="show_sql">true</property>
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
